@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Media, data, models and secrets must never land here
+*.wav
+*.mp4
+*.csv
+*.pkl
+*.env
+.env.*
